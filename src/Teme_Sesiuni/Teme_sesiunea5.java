@@ -1,3 +1,5 @@
+package Teme_Sesiuni;
+
 import java.util.Scanner;
 
 public class Teme_sesiunea5 {
