@@ -9,11 +9,10 @@ public class Cat {
 
     public Cat(String name) {
         this.name = name;
+        counter++;
     }
 
     public int getNumberOfCats(){
-        counter = 0;
-        counter++;
         System.out.println("numarul pisicilor este: " + counter);
         return counter;
     }
