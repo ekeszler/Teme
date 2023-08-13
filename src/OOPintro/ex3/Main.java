@@ -5,8 +5,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Cat cat = getCat();
-        System.out.println(cat.counter);
-
+        Cat cat1 = getCat();
+        Cat cat2 = getCat();
+        Cat.getNumberOfCats();
     }
 
     public static Cat getCat(){

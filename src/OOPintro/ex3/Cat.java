@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class Cat {
 
     String name;
-    int counter;
+    static int counter = 0;
 
     public Cat(String name) {
         this.name = name;
         counter++;
     }
 
-    public int getNumberOfCats(){
+    public static int getNumberOfCats(){
         System.out.println("numarul pisicilor este: " + counter);
         return counter;
     }
@@ -21,7 +21,6 @@ public class Cat {
         public String toString () {
             return "Cat{" +
                     "name='" + name + '\'' +
-                    ", counter=" + counter +
                     '}';
         }
     }
